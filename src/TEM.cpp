@@ -27,21 +27,8 @@ void TEM::read_configuration()
 		{
 			//workspace
 			ifs >> variable >> config_p.workspace;
-
 			//parameters
-			ifs >> variable >> config_p.spin_num;
-			ifs >> variable >> config_p.year_per_spin;
-			ifs >> variable >> config_p.transient_year;
-			ifs >> variable >> config_p.equilirium_checkpoint;
-			ifs >> variable >> config_p.start_year;
-			ifs >> variable >> config_p.end_year;
-			ifs >> variable >> config_p.year_intervel;
-			ifs >> variable >> config_p.water_tolerance;
-			ifs >> variable >> config_p.carbon_tolerance;
-			ifs >> variable >> config_p.equlibrium_tolerance;
-			ifs >> variable >> config_p.proportional_tolerance;
-			ifs >> variable >> config_p.interation_num;
-			ifs >> variable >> config_p.pft_num;			
+
 		}
 	}
 	else
@@ -58,8 +45,8 @@ void TEM::deploy_component()
 
 	//..........................................................................................................
 	//for deatils of how parameter files are placed under the workspace, see the workspace instruction paper.
-cGeology.elevation_f=config_p.workspace+backslash+"parameter"+backslash+"elevation_file.flt";
-	
+	cGeology.elevation_f=config_p.workspace+backslash+"parameter"+backslash+"elevation_file.flt";
+
 	cVegetation.workspace_p=config_p.workspace+backslash+"parameter"+backslash;
 	cVegetation.vegetation_f=config_p.workspace+backslash+"parameter"+backslash+"vegetation_file.flt";
 	cSoil.soil_texture_f=config_p.workspace+backslash+"parameter"+backslash+"soil_texture.flt";
@@ -96,9 +83,9 @@ void TEM::run()
 	//set all the flag outside loop to improve efficiency
 	//the common sense is to reduce unnecessary loop as to improve the efficience
 	//the case or switch option may be applied in coming development
-	int spinup_year = config_p.spin_num *  config_p.year_per_spin;
+	//int spinup_year = config_p.spin_num *  config_p.year_per_spin;
 
-	for(int iyear=0;iyear < spinup_year;iyear++)
+	/*for(int iyear=0;iyear < spinup_year;iyear++)
 	{
 
 		for(int month=1;month<=12;month++)
@@ -106,7 +93,7 @@ void TEM::run()
 			cAtmosphere.calculate_radiance(iyear,23);
 		}
 
-	}
+	}*/
 
 	//start transient simulation
 

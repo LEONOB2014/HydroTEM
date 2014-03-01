@@ -10,6 +10,35 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\atmosphere.cpp" />
+    <ClCompile Include="src\DataIO.cpp" />
+    <ClCompile Include="src\Date.cpp" />
+    <ClCompile Include="src\geology.cpp" />
+    <ClCompile Include="src\HydroTEM.cpp" />
+    <ClCompile Include="src\microbe.cpp" />
+    <ClCompile Include="src\parameter.cpp" />
+    <ClCompile Include="src\permafrost.cpp" />
+    <ClCompile Include="src\shared.cpp" />
+    <ClCompile Include="src\snow.cpp" />
+    <ClCompile Include="src\soil.cpp" />
+    <ClCompile Include="src\TEM.cpp" />
+    <ClCompile Include="src\vegetation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\atmosphere.h" />
+    <ClInclude Include="src\DataIO.h" />
+    <ClInclude Include="src\Date.h" />
+    <ClInclude Include="src\geology.h" />
+    <ClInclude Include="src\microbe.h" />
+    <ClInclude Include="src\parameter.h" />
+    <ClInclude Include="src\permafrost.h" />
+    <ClInclude Include="src\shared.h" />
+    <ClInclude Include="src\snow.h" />
+    <ClInclude Include="src\soil.h" />
+    <ClInclude Include="src\TEM.h" />
+    <ClInclude Include="src\vegetation.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{69EDB240-1C66-49D1-84BE-5099FFBC1B0F}</ProjectGuid>
     <RootNamespace>HydroTEM</RootNamespace>
@@ -59,8 +88,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

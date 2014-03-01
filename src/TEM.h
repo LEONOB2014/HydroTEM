@@ -5,12 +5,15 @@
 #include <vector>
 #include <sstream> 
 #include <iterator>
+
+
 #include "atmosphere.h"
+#include "geology.h"
+#include "permafrost.h"
+#include "shared.h"
+#include "snow.h"
 #include "soil.h"
 #include "vegetation.h"
-#include "snow.h"
-#include "geology.h"
-
 
 
 
@@ -39,20 +42,7 @@ public:
 		//workspace
 		string workspace;
 		//parameters
-		int spin_num;
-		int year_per_spin;
-		int transient_year;	
-		int equilirium_checkpoint;
-		int start_year;
-		int end_year;
-		int year_intervel;
-		double water_tolerance;
-		double carbon_tolerance;
-		double equlibrium_tolerance;
-		double proportional_tolerance;	
-		int interation_num;
-		int pft_num;
-
+		
 	}config_p;
 
 

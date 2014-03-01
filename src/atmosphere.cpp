@@ -27,59 +27,6 @@ void atmosphere::read_carbon_dioxide()
 }
 
 
-//int atmosphere::read_cloudiness(FILE *in_file)
-//{
-//	int result=0;
-	/*double longitude,latitude,area;
-	string continent;
-
-	if(in_file)
-	{
-		result = fscanf(in_file, "%lf,%lf, %s ,%lf,%l,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf, %s",
-			&longitude, &latitude, s_cloudiness.variable_name, &area, &s_cloudiness.year, &s_cloudiness.total, &s_cloudiness.max,
-			&s_cloudiness.average, &s_cloudiness.min,
-			s_cloudiness.month+0, s_cloudiness.month+1, s_cloudiness.month+2, s_cloudiness.month+3, s_cloudiness.month+4, s_cloudiness.month+5,
-			s_cloudiness.month+6, s_cloudiness.month+7, s_cloudiness.month+8, s_cloudiness.month+9, s_cloudiness.month+10, s_cloudiness.month+11, continent);
-	}*/
-//	return result;
-//}
-
-
-//int atmosphere::read_air_temperature(FILE *in_file)
-//{
-//	int result=0;
-//	/*double longitude,latitude,area;
-	//string continent;
-
-	//if(in_file)
-	//{
-	//	result = fscanf(in_file, "%lf,%lf, %s ,%lf,%l,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf, %s",
-	//		&longitude, &latitude, s_air_temperature.variable_name, &area, &s_air_temperature.year, &s_air_temperature.total, &s_air_temperature.max,
-	//		&s_air_temperature.average, &s_air_temperature.min,
-	//		s_air_temperature.month+0, s_air_temperature.month+1, s_air_temperature.month+2, s_air_temperature.month+3, s_air_temperature.month+4, s_air_temperature.month+5,
-	//		s_air_temperature.month+6, s_air_temperature.month+7, s_air_temperature.month+8, s_air_temperature.month+9, s_air_temperature.month+10, s_air_temperature.month+11, continent);
-
-//	}*/
-//	return result;
-//}
-//int atmosphere::read_precipitation(FILE *in_file)
-//{
-	//int result=0;
-	/*double longitude,latitude,area;
-	string continent;
-
-	if(in_file)
-	{
-		result = fscanf(in_file, "%lf,%lf, %s ,%lf,%l,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf, %s",
-			&longitude, &latitude, s_precipitation.variable_name, &area, &s_precipitation.year, &s_precipitation.total, &s_precipitation.max,
-			&s_precipitation.average, &s_precipitation.min,
-			s_precipitation.month+0, s_precipitation.month+1, s_precipitation.month+2, s_precipitation.month+3, s_precipitation.month+4, s_precipitation.month+5,
-			s_precipitation.month+6, s_precipitation.month+7, s_precipitation.month+8, s_precipitation.month+9, s_precipitation.month+10, s_precipitation.month+11, continent);
-	}*/
-	/*return result;
-}*/
-
-
 void atmosphere::calculate_radiance(int year, double latitude)
 {
 	int sumday=0;
