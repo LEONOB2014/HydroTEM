@@ -11,33 +11,43 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\atmosphere.cpp" />
-    <ClCompile Include="src\DataIO.cpp" />
-    <ClCompile Include="src\Date.cpp" />
-    <ClCompile Include="src\geology.cpp" />
-    <ClCompile Include="src\HydroTEM.cpp" />
-    <ClCompile Include="src\microbe.cpp" />
-    <ClCompile Include="src\parameter.cpp" />
-    <ClCompile Include="src\permafrost.cpp" />
-    <ClCompile Include="src\shared.cpp" />
-    <ClCompile Include="src\snow.cpp" />
-    <ClCompile Include="src\soil.cpp" />
-    <ClCompile Include="src\TEM.cpp" />
-    <ClCompile Include="src\vegetation.cpp" />
+    <ClInclude Include="EVAP.h" />
+    <ClInclude Include="RECH.h" />
+    <ClInclude Include="RIVE.h" />
+    <ClInclude Include="src\ATMO.h" />
+    <ClInclude Include="src\DATA.h" />
+    <ClInclude Include="src\DATE.h" />
+    <ClInclude Include="src\GEOL.h" />
+    <ClInclude Include="src\LAKE.h" />
+    <ClInclude Include="src\MICR.h" />
+    <ClInclude Include="src\PARA.h" />
+    <ClInclude Include="src\PERM.h" />
+    <ClInclude Include="src\SHAR.h" />
+    <ClInclude Include="src\SNOW.h" />
+    <ClInclude Include="src\SOIL.h" />
+    <ClInclude Include="src\TEM.h" />
+    <ClInclude Include="src\VEGE.h" />
+    <ClInclude Include="STRE.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\atmosphere.h" />
-    <ClInclude Include="src\DataIO.h" />
-    <ClInclude Include="src\Date.h" />
-    <ClInclude Include="src\geology.h" />
-    <ClInclude Include="src\microbe.h" />
-    <ClInclude Include="src\parameter.h" />
-    <ClInclude Include="src\permafrost.h" />
-    <ClInclude Include="src\shared.h" />
-    <ClInclude Include="src\snow.h" />
-    <ClInclude Include="src\soil.h" />
-    <ClInclude Include="src\TEM.h" />
-    <ClInclude Include="src\vegetation.h" />
+    <ClCompile Include="src\ATMO.cpp" />
+    <ClCompile Include="src\DATA.cpp" />
+    <ClCompile Include="src\DATE.cpp" />
+    <ClCompile Include="src\EVAP.cpp" />
+    <ClCompile Include="src\GEOL.cpp" />
+    <ClCompile Include="src\LAKE.cpp" />
+    <ClCompile Include="src\MAIN.cpp" />
+    <ClCompile Include="src\MICR.cpp" />
+    <ClCompile Include="src\PARA.cpp" />
+    <ClCompile Include="src\PERM.cpp" />
+    <ClCompile Include="src\RECH.cpp" />
+    <ClCompile Include="src\RIVE.cpp" />
+    <ClCompile Include="src\SHAR.cpp" />
+    <ClCompile Include="src\SNOW.cpp" />
+    <ClCompile Include="src\SOIL.cpp" />
+    <ClCompile Include="src\STRE.cpp" />
+    <ClCompile Include="src\TEM.cpp" />
+    <ClCompile Include="src\VEGE.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{69EDB240-1C66-49D1-84BE-5099FFBC1B0F}</ProjectGuid>

@@ -15,82 +15,112 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\HydroTEM.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\atmosphere.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\DataIO.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Date.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\geology.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\microbe.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\parameter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\snow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\soil.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\TEM.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\vegetation.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\permafrost.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\shared.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\atmosphere.h">
+    <ClInclude Include="src\ATMO.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\vegetation.h">
+    <ClInclude Include="src\DATA.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\DataIO.h">
+    <ClInclude Include="src\DATE.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Date.h">
+    <ClInclude Include="src\GEOL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\geology.h">
+    <ClInclude Include="src\LAKE.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\microbe.h">
+    <ClInclude Include="src\MICR.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\parameter.h">
+    <ClInclude Include="src\PARA.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\snow.h">
+    <ClInclude Include="src\PERM.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\soil.h">
+    <ClInclude Include="src\SHAR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SNOW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SOIL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\TEM.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\permafrost.h">
+    <ClInclude Include="src\VEGE.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\shared.h">
+    <ClInclude Include="EVAP.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RIVE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STRE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RECH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ATMO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DATA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DATE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GEOL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LAKE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MAIN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MICR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PARA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PERM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SHAR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SNOW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SOIL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TEM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VEGE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EVAP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RECH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RIVE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\STRE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
