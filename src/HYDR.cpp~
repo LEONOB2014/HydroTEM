@@ -1,0 +1,31 @@
+void main
+{
+  return;
+}
+
+TEM::TEM(string config_file)
+{
+	configuration_f=config_file;
+}
+void TEM::ReadConfiguration()
+{
+	//verify the configuration file
+	ifstream ifs;	
+	ifs.open(configuration_f.c_str(), ios::in);
+	if(ifs.good())
+	{
+		string variable;
+		string value;
+		while(!ifs.eof())
+		{
+			//workspace
+			ifs >> variable >> config_p.workspace;
+			//parameters
+
+		}
+	}
+	else
+	{
+
+	}
+}

@@ -1,0 +1,5 @@
+include ${PETSC_DIR}/conf/variables
+include ${PETSC_DIR}/conf/rules
+main: main.o
+	${CLINKER}  -o main main.o ${PETSC_SYS_LIB}
+include ${PETSC_DIR}/linux/conf/petscvariables
